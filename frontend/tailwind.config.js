@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        serif: ['Lora', 'serif'],
+      },
       colors: {
         primary: "#0995b0",
         button: {

@@ -1,9 +1,12 @@
 import React from 'react'
+import HomeCover from '../components/HomeCover'
+import SpecialityMenu from '../components/SpecialityMenu'
 
 const Home = () => {
     return (
         <div>
-            This is Home page
+            <HomeCover/>
+            <SpecialityMenu/>
         </div>
     )
 }
